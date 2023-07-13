@@ -31,21 +31,22 @@ main{
 
 .box-image1{
   height:150px;
-  background-image:url(img/flow01.png);
+  background-image:url(../image/img/img/flow01.png);
   background-position:bottom;
   background-size:cover;
 }
 
+
 .box-image2{
   height:150px;
-  background-image:url(img/flow02.png);
+  background-image:url(../image/img/img/flow02.png);
   background-position:bottom;
   background-size:cover;
 }
 
 .box-image3{
   height:150px;
-  background-image:url(img/flow03.png);
+  background-image:url(../image/img/img/flow03.png);
   background-position:bottom;
   background-size:cover;
 }
@@ -63,4 +64,32 @@ h3{
 footer{
   height:50px;
   background-color:#aaa;
+}
+
+@media screen and (max-width:768px){
+  header{
+    width:100%;
+  }
+  
+  main{
+    width:100%;
+    margin:50px 5%;
+    display:block;
+  }
+  
+  .box{
+    width:90%;
+    margin-bottom:20px;
+    
+    
+    
+  }
+  
+  .box:last-child{
+    margin-bottom:0;
+  }
+  
+  .footer{
+    width:100%;
+  }
 }
